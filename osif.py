@@ -95,7 +95,7 @@ def info_ga():
    get_info           show information about your friend
 
    dump_id            fetching all id from friend list
-   dump_phone         fetching all phone number from friend list
+   phone              fetching all phone number from friend list
    dump_mail          fetching all emails from friend list
    dump_<id>_id       fetching all id from your friends <spesific>
 		      ex: dump_username_id
