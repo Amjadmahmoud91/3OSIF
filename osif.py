@@ -57,11 +57,7 @@ def baliho():
 		print ' '
 
 	except (KeyError,IOError):
-		print R + '_     _'.center(44)
-		print "o' \.=./ `o".center(44)
-		print '(o o)'.center(44)
-		print 'ooO--(_)--Ooo'.center(44)
-		print ' ' + W
+
 		print ('M E G A').center(44)
 		print (W + '     [' + G +'Open Source Information Facebook'+ W + ']')
 		print ' '
@@ -95,7 +91,7 @@ def info_ga():
    get_info           show information about your friend
 
    dump_id            fetching all id from friend list
-   phone              fetching all phone number from friend list
+   dump_phone         fetching all phone number from friend list
    dump_mail          fetching all emails from friend list
    dump_<id>_id       fetching all id from your friends <spesific>
 		      ex: dump_username_id
